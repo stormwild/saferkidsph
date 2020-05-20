@@ -1,0 +1,5 @@
+{
+  "emmet.triggerExpansionOnTab": true,
+  "blade.format.enable": true,
+  "phpcs.executablePath": "/usr/local/bin/phpcs"
+}
