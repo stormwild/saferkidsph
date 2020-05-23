@@ -1,12 +1,42 @@
+# Notes
+
+## Admin
+
 saferkidsadmin
 2&o$4dTDT^*M9!02K^
 
 ## WordPress
-https://developer.wordpress.org/themes/functionality/custom-logo/
 
-https://www.lyrathemes.com/blog/bootstrap-carousel-tutorial/
-https://prabinparajuli.com.np/add-bootstrap-carousel-in-wordpress/
-https://discourse.roots.io/t/solved-admin-theme-customizer/6107/4
+### Google Fonts
+
+Self Host Google Fonts
+
+Use Nunito to replace Avenir
+Use Yantramanav
+
+Avenir Roman - Footer Text
+Avenir Medium - Body Text
+Avenir Black - Strong Text, Text Links
+Avenir Book Oblique - Small Text
+
+Yantramanav Black - Headings
+
+Nunito Roman - Footer Text
+Nunito Medium - Body Text
+Nunito Black - Strong Text, Text Links
+Nunito Book Oblique - Small Text
+
+
+### Tutorials
+
+
+[Carousel](https://www.lyrathemes.com/blog/bootstrap-carousel-tutorial/)
+[Carousel 2](https://prabinparajuli.com.np/add-bootstrap-carousel-in-wordpress/)
+[Customizer](https://discourse.roots.io/t/solved-admin-theme-customizer/6107/4)
+
+#### Custom Logo
+
+[Custom Logo](https://developer.wordpress.org/themes/functionality/custom-logo/)
 
 ```phtml
       <a class="navbar-brand brand" href="{{ home_url('/') }}">
