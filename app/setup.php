@@ -66,6 +66,17 @@ add_action('after_setup_theme', function () {
     add_theme_support('customize-selective-refresh-widgets');
 
     /**
+     * Enable custom logo
+     */
+    add_theme_support( 'custom-logo', [
+        'height'      => 89,
+        'width'       => 395,
+        'flex-height' => true,
+        'flex-width'  => true,
+        'header-text' => ['site-title', 'site-description']
+    ] );
+
+    /**
      * Use main stylesheet for visual editor
      * @see resources/assets/styles/layouts/_tinymce.scss
      */

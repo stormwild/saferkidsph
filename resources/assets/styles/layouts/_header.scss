@@ -5,3 +5,7 @@
 .banner .nav a {
   @extend .nav-link;
 }
+
+.banner .navbar {
+  padding: 1.5rem 0.5rem 1rem;
+}

@@ -9,8 +9,8 @@
     ]
   },
   "publicPath": "/wp-content/themes/saferkidsph",
-  "devUrl": "http://localhost",
-  "proxyUrl": "http://localhost:3000",
+  "devUrl": "http://saferkidsph.local",
+  "proxyUrl": "http://saferkidsph.local:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
     "app/**/*.php",

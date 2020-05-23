@@ -4,6 +4,8 @@ namespace App\Controllers;
 
 use Sober\Controller\Controller;
 
+use function App\asset_path;
+
 class App extends Controller
 {
     public function siteName()
@@ -35,17 +37,28 @@ class App extends Controller
      * Primary Nav Menu arguments
      * @return array
      */
-    public function primarymenu()
+    public function primaryMenu()
     {
         $args = array(
             'theme_location'    => 'primary_navigation',
             'container'         => 'div',
             'container_class'   => 'collapse navbar-collapse',
             'container_id'      => 'navbarSupportedContent',
-            'menu_class'        => 'navbar-nav',
+            'menu_class'        => 'navbar-nav ml-auto',
             'walker'            => new \App\wp_bootstrap4_navwalker(),
           );
 
           return $args;
+    }
+
+    public function siteBrand()
+    {
+        $name = get_bloginfo( 'name' );
+        $title = get_bloginfo('name') . ' - ' . get_bloginfo('description');
+        $src = has_custom_logo() ? wp_get_attachment_image_src( get_theme_mod( 'custom_logo' ), 'full' ) : [ asset_path('images/saferkidsph-logo.png'), 395, 89 ];
+
+        $output = "<span class='sr-only'>{$name}</span>";
+        $logo = "<img class='img-fluid' src='{$src[0]}' alt='{$name}' title='{$title}' width='{$src[1]}' height='{$src[2]}'>";
+        return $output .= $logo;
     }
 }

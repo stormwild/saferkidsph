@@ -1,5 +1,7 @@
 {
   "emmet.triggerExpansionOnTab": true,
   "blade.format.enable": true,
-  "phpcs.executablePath": "/usr/local/bin/phpcs"
+  "phpcs.executablePath": "/usr/local/bin/phpcs",
+  "phpsab.standard": "WordPress",
+  "intelephense.file.maxSize": 3000000
 }
