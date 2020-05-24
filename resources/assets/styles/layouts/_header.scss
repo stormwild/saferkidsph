@@ -9,3 +9,19 @@
 .banner .navbar {
   padding: 1.5rem 0.5rem 1rem;
 }
+
+.banner .navbar-nav {
+  .nav-link {
+    font-weight: 900;
+  }
+}
+
+.banner .navbar-dark {
+  .nav-link {
+    color: rgba($white, 0.75);
+
+    &:hover {
+      color: rgba($white, 0.95);
+    }
+  }
+}

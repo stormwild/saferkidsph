@@ -1,6 +1,6 @@
 <header class="banner">
   <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand brand" href="{{ home_url('/') }}">
         {!! $site_brand !!}
       </a>

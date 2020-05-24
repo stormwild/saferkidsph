@@ -93,3 +93,25 @@ https://ubuntu.com/tutorials/tutorial-ubuntu-desktop-aws#1-overview
 https://stackoverflow.com/questions/25657596/how-to-set-up-gui-on-amazon-ec2-ubuntu-server
 
 https://superuser.com/questions/184338/how-to-change-screen-resolution-of-vnc-server-without-restarting-it
+
+## Footer
+
+gradient colors
+
+start left
+#f6b933
+
+end right
+#de782f
+
+
+## Pages
+
+About - Know About SaferKidsPH
+Learn - Learn About OSAEC
+Safety - Stay Safe Online
+Help - Take Action Help Stop OSAEC Online Sexual Abuse and Exploitation of Children
+
+Donate - redirect popup
+Contact - Contact
+

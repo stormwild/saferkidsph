@@ -51,6 +51,22 @@ class App extends Controller
           return $args;
     }
 
+    /**
+     * Footer Nav Menu arguments
+     *
+     * @return array
+     */
+    public function footerMenu()
+    {
+        return [
+            'theme_location'    => 'footer_navigation',
+            'container'         => null,
+            'menu_id'           => 'footer-menu',
+            'menu_class'        => 'nav flex-column font-weight-bold',
+            'walker'            => new \App\wp_bootstrap4_navwalker(),
+        ];
+    }
+
     public function siteBrand()
     {
         $name = get_bloginfo( 'name' );

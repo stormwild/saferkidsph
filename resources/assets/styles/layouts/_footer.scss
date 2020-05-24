@@ -1,0 +1,9 @@
+.content-info {
+  .nav {
+    .nav-link {
+      @include media-breakpoint-up(xs) {
+        padding-left: 0;
+      }
+    }
+  }
+}

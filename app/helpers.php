@@ -136,3 +136,14 @@ function display_sidebar()
     isset($display) || $display = apply_filters('sage/display_sidebar', false);
     return $display;
 }
+
+/**
+ * Determine if content is empty after it trims and strips html and whitespace from the content
+ * Usage: if (empty_content($post->post_content)) { ... }
+ * @param string $str
+ * @return bool
+ */
+function empty_content($str)
+{
+    return trim(str_replace('&nbsp;', '', strip_tags($str))) == '';
+}
