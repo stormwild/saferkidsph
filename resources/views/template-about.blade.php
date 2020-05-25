@@ -8,9 +8,6 @@
   @if(App\empty_content($post->post_content))
     @include('static.about')
   @else
-    @while(have_posts()) @php the_post() @endphp
-      @include('partials.page-header')
-      @include('partials.content-page')
-    @endwhile
+    @include('partials.content-container')
   @endif
 @endsection

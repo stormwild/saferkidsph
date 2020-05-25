@@ -1,12 +1,12 @@
 {{--
-  Template Name: Stay Safe Online SaferKidsPH Template
+  Template Name: Home SaferKidsPH Template
 --}}
 
 @extends('layouts.app')
 
 @section('content')
   @if(App\empty_content($post->post_content))
-    safe static content
+    @include('static.home')
   @else
     @include('partials.content-container')
   @endif
