@@ -1,3 +1,8 @@
 .carousel-caption {
-  bottom: 50%;
+  top: 20%;
+  bottom: initial;
+
+  @include media-breakpoint-up(md) {
+    top: 20%;
+  }
 }
