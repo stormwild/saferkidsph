@@ -5,4 +5,10 @@
   @include media-breakpoint-up(md) {
     top: 20%;
   }
+
+  .caption-title {
+    @include media-breakpoint-down(xs) {
+      font-size: 1.5rem;
+    }
+  }
 }

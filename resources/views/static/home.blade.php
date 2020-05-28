@@ -30,7 +30,7 @@
                 alt="Let’s make the internet safe for kids slide">
             </div>
             <div class="col-9">
-              <h1 class="font-weight-bold text-left ml-3">Let’s make the internet safe for kids.</h1>
+              <h1 class="caption-title font-weight-bold text-left ml-3">Let’s make the internet safe for kids.</h1>
             </div>
           </div>
 
@@ -59,7 +59,7 @@
                 alt="Let’s make the internet safe for kids slide">
             </div>
             <div class="col-9">
-              <h1 class="font-weight-bold text-left ml-3">Help stop the online sexual abuse and exploitation of
+              <h1 class="caption-title font-weight-bold text-left ml-3">Help stop the online sexual abuse and exploitation of
                 children.</h1>
             </div>
           </div>
@@ -118,43 +118,45 @@
   <section class="section-body">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 mb-5">
           <div class="card">
             <div class="card-body">
-              <h3 class="card-title">Take Action</h3>
-              <ul>
-                <li>Be the voice of the children who need help.</li>
+              <h3 class="card-title text-center">Take Action</h3>
+              <ul class="card-list mb-5">
+                <li class="card-list-check">Be the voice of the children who need help.</li>
 
-                <li>Teach children how to stay safe online.</li>
+                <li class="card-list-check">Teach children how to stay safe online.</li>
 
-                <li>Demand accountability of government. <br>
+                <li class="card-list-check">Demand accountability of government. <br>
                   Sign the petition now.</li>
 
-                <li>Stay safe online.</li>
+                <li class="card-list-check">Stay safe online.</li>
 
-                <li>Follow SaferKidsPH on social media
+                <li class="card-list-check">Follow SaferKidsPH on social media
                   and share our content.</li>
               </ul>
-              <a href="" class="btn btn-primary">Follow us on Facebook</a>
+              <p class="text-center"><a href="" class="btn btn-primary rounded-0">Follow us on Facebook</a></p>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mb-5">
           <div class="card">
             <div class="card-body">
-              <h3 class="card-title">Report</h3>
+              <h3 class="card-title text-center">Report</h3>
               <p class="card-text">
                 To report cases of online child sexual abuse and exploitation, call:
               </p>
-              <ul>
-                <li>PNP Aleng Pulis Hotline: <br>
-                  (+63) 919 777 7377</li>
+              <ul class="card-list">
+                <li>
+                  <h5>PNP Aleng Pulis Hotline:</h5>
+                  <p>(+63) 919 777 7377</p></li>
 
-                <li>Action Against Human Trafficking: 1343 for Metro Manila <br>
-                  (02) 1343 for outside Metro Manila</li>
+                <li><h5>Action Against Human Trafficking: 1343 for Metro Manila</h5>
+                  <p>(02) 1343 for outside Metro Manila</p>
+                  </li>
 
-                <li>Bantay Bata 163: <br>
-                  163
+                <li><h5>Bantay Bata 163:</h5>
+                  <p>163</p>
                 </li>
               </ul>
             </div>
