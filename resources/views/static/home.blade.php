@@ -9,14 +9,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img srcset="@asset('images/slider/slide-1/home-slides-1@0.25x.jpg') 640w,
+        <img src="@asset('images/slider/slide-1/home-slides-1@0.75x.jpg')" alt="Let’s make the internet safe for kids slide">
+        {{-- <img srcset="@asset('images/slider/slide-1/home-slides-1@0.25x.jpg') 640w,
                       @asset('images/slider/slide-1/home-slides-1@0.5x.jpg') 1280w,
                       @asset('images/slider/slide-1/home-slides-1@0.75x.jpg') 1920w,
                       @asset('images/slider/slide-1/home-slides-1.jpg') 2560w" sizes="(min-width: 1921px) 2560px,
                               (min-width: 1281px) 1920px,
                               (min-width: 641px) 1280px,
                               640px" src="@asset('images/slider/slide-1/home-slides-1@0.75x.jpg')"
-          alt="Let’s make the internet safe for kids slide">
+          alt="Let’s make the internet safe for kids slide"> --}}
         <div class="carousel-caption">
           <div class="row align-items-center">
             <div class="col-3">
@@ -38,14 +39,15 @@
       </div>
 
       <div class="carousel-item">
-        <img srcset="@asset('images/slider/slide-2/home-slides-2@0.25x.jpg') 640w,
+        <img src="@asset('images/slider/slide-2/home-slides-2@0.75x.jpg')" alt="Let’s make the internet safe for kids slide">
+        {{-- <img srcset="@asset('images/slider/slide-2/home-slides-2@0.25x.jpg') 640w,
                       @asset('images/slider/slide-2/home-slides-2@0.5x.jpg') 1280w,
                       @asset('images/slider/slide-2/home-slides-2@0.75x.jpg') 1920w,
                       @asset('images/slider/slide-2/home-slides-2.jpg') 2560w" sizes="(min-width: 1921px) 2560px,
                               (min-width: 1281px) 1920px,
                               (min-width: 641px) 1280px,
                               640px" src="@asset('images/slider/slide-2/home-slides-2@0.75x.jpg')"
-          alt="Help stop the online sexual abuse and exploitation of children slide">
+          alt="Help stop the online sexual abuse and exploitation of children slide"> --}}
         <div class="carousel-caption">
           <div class="row align-items-center">
             <div class="col-3">
@@ -159,6 +161,33 @@
                   <p>163</p>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<section class="section-home-donate">
+  <section class="section-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-5">
+          <div class="card donate">
+            <div class="card-body">
+              <h3 class="card-title text-center">Donate</h3>
+              <img class="donate-svg" width="50px" src="@asset('images/icons/various/hello.svg')" alt="Hello icon svg">
+              <p class="card-text">With your donation, you can help rescue and protect children from online abuse.</p>
+            </div>
+            <p class="text-center"><a href="" class="btn btn-primary rounded-0">Donate Now</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-5">
+          <div class="card safe">
+            <div class="card-body">
+              <h3 class="card-title text-center">Keep your children safe online</h3>
+              <p class="text-center"><a href="" class="btn btn-primary rounded-0">Learn More</a></p>
             </div>
           </div>
         </div>

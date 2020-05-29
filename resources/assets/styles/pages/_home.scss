@@ -68,3 +68,38 @@
     }
   }
 }
+
+.section-home-donate {
+  background-color: $gray-100;
+
+  .section-body {
+    .card {
+      background: $black;
+      position: relative;
+      border: none;
+      border-radius: 0;
+      color: white;
+      min-height: 357px;
+
+      .card-body {
+        padding: 2rem;
+      }
+
+      &.donate {
+        background: $black url("../images/donate-bg-photo-assets/donate-bg-photo@0.75x.jpg") top left / 100% no-repeat;
+        background-color: $black;
+      }
+
+      &.safe {
+        background: url("../images/safe-bg-photo-assets/safe-bg-photo@0.75x.jpg") top left / 100% no-repeat;
+        background-color: $black;
+      }
+    }
+
+    .donate-svg {
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
+
