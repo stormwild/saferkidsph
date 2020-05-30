@@ -1,23 +1,21 @@
 
 .section-home-happening {
-  .background-img-container {
-    display: block;
-    min-height: 400px;
+  .section-graph {
+    background: #313131 url("../images/graph-assets/graph-bg.jpg") top left / cover no-repeat;
+    display: flex;
 
-    .background-img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    .card {
+      background-color: transparent;
+
+      .card-img {
+        visibility: hidden;
+      }
     }
   }
 
   .section-header {
     text-align: left;
-    margin-bottom: 60px;
-    padding: 4rem 2rem 2rem;
+    padding: 4rem 2rem 2rem 4rem;
     width: 80%;
   }
 
@@ -79,26 +77,17 @@
       border: none;
       border-radius: 0;
       color: white;
-      min-height: 357px;
 
       .card-body {
         padding: 2rem;
       }
-
-      &.donate {
-        background: $black url("../images/donate-bg-photo-assets/donate-bg-photo@0.75x.jpg") top left / 100% no-repeat;
-        background-color: $black;
-      }
-
-      &.safe {
-        background: url("../images/safe-bg-photo-assets/safe-bg-photo@0.75x.jpg") top left / 100% no-repeat;
-        background-color: $black;
-      }
     }
 
     .donate-svg {
+      display: block;
       margin: 0 auto;
-      text-align: center;
+      filter: invert(100%);
+      width: 50px;
     }
   }
 }

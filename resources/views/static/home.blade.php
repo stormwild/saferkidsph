@@ -9,15 +9,14 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="@asset('images/slider/slide-1/home-slides-1@0.75x.jpg')" alt="Let’s make the internet safe for kids slide">
-        {{-- <img srcset="@asset('images/slider/slide-1/home-slides-1@0.25x.jpg') 640w,
+        <img class="d-block w-100" srcset="@asset('images/slider/slide-1/home-slides-1@0.25x.jpg') 640w,
                       @asset('images/slider/slide-1/home-slides-1@0.5x.jpg') 1280w,
                       @asset('images/slider/slide-1/home-slides-1@0.75x.jpg') 1920w,
                       @asset('images/slider/slide-1/home-slides-1.jpg') 2560w" sizes="(min-width: 1921px) 2560px,
                               (min-width: 1281px) 1920px,
                               (min-width: 641px) 1280px,
                               640px" src="@asset('images/slider/slide-1/home-slides-1@0.75x.jpg')"
-          alt="Let’s make the internet safe for kids slide"> --}}
+          alt="Let’s make the internet safe for kids slide">
         <div class="carousel-caption">
           <div class="row align-items-center">
             <div class="col-3">
@@ -39,15 +38,14 @@
       </div>
 
       <div class="carousel-item">
-        <img src="@asset('images/slider/slide-2/home-slides-2@0.75x.jpg')" alt="Let’s make the internet safe for kids slide">
-        {{-- <img srcset="@asset('images/slider/slide-2/home-slides-2@0.25x.jpg') 640w,
+        <img class="d-block w-100" srcset="@asset('images/slider/slide-2/home-slides-2@0.25x.jpg') 640w,
                       @asset('images/slider/slide-2/home-slides-2@0.5x.jpg') 1280w,
                       @asset('images/slider/slide-2/home-slides-2@0.75x.jpg') 1920w,
                       @asset('images/slider/slide-2/home-slides-2.jpg') 2560w" sizes="(min-width: 1921px) 2560px,
                               (min-width: 1281px) 1920px,
                               (min-width: 641px) 1280px,
                               640px" src="@asset('images/slider/slide-2/home-slides-2@0.75x.jpg')"
-          alt="Help stop the online sexual abuse and exploitation of children slide"> --}}
+          alt="Help stop the online sexual abuse and exploitation of children slide">
         <div class="carousel-caption">
           <div class="row align-items-center">
             <div class="col-3">
@@ -79,16 +77,19 @@
   </div>
 </section>
 
-<section class="section-home-happening container-fluid">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="background-img-container">
-        <img class="background-img" srcset="@asset('images/home/graph@0.25x.png') 272w,
-            @asset('images/home/graph@0.5x.png') 5430w,
-            @asset('images/home/graph@0.75x.png') 815w" sizes="(min-width: 1921px) 815px,
-            (min-width: 1281px) 543px,
-            (min-width: 641px) 272px,
-            272px" src="@asset('images/home/graph@0.75x.png')" alt="What is happening? graph">
+<section class="section-home-happening">
+  <div class="row no-gutters">
+    <div class="col-md-6 section-graph">
+      <div class="card text-white rounded-0">
+        <img class="card-img" src="@asset('images/graph-assets/graph-bg.jpg')" alt="What is happening? graph background">
+        <div class="card-img-overlay">
+          <img class="d-block w-100" srcset="@asset('images/graph-assets/graph@0.25x.png') 272w,
+          @asset('images/graph-assets/graph@0.5x.png') 5430w,
+          @asset('images/graph-assets/graph@0.75x.png') 815w" sizes="(min-width: 1921px) 815px,
+          (min-width: 1281px) 543px,
+          (min-width: 641px) 272px,
+          272px" src="@asset('images/graph-assets/graph@0.75x.png')" alt="What is happening? graph">
+        </div>
       </div>
     </div>
     <div class="col-md-6">
@@ -141,7 +142,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 mb-5">
+        <div class="col-md-6 mb-5 d-flex">
           <div class="card">
             <div class="card-body">
               <h3 class="card-title text-center">Report</h3>
@@ -174,18 +175,20 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 mb-5">
-          <div class="card donate">
-            <div class="card-body">
-              <h3 class="card-title text-center">Donate</h3>
-              <img class="donate-svg" width="50px" src="@asset('images/icons/various/hello.svg')" alt="Hello icon svg">
+          <div class="card">
+            <img class="card-img" src="@asset('images/donate-bg-photo-assets/donate-bg-photo@0.75x.jpg')" alt="Donate bg photo">
+            <div class="card-img-overlay text-center d-flex flex-column justify-content-around">
+              <h3 class="card-title">Donate</h3>
+              <img class="donate-svg" src="@asset('images/icons/various/hello.svg')" alt="Hello svg image">
               <p class="card-text">With your donation, you can help rescue and protect children from online abuse.</p>
+              <p class="card-text"><a href="" class="btn btn-primary rounded-0">Donate Now</a></p>
             </div>
-            <p class="text-center"><a href="" class="btn btn-primary rounded-0">Donate Now</a></p>
           </div>
         </div>
         <div class="col-md-6 mb-5">
-          <div class="card safe">
-            <div class="card-body">
+          <div class="card">
+            <img class="card-img" src="@asset('images/safe-bg-photo-assets/safe-bg-photo@0.75x.jpg')" alt="Donate bg photo">
+            <div class="card-img-overlay d-flex flex-column justify-content-around">
               <h3 class="card-title text-center">Keep your children safe online</h3>
               <p class="text-center"><a href="" class="btn btn-primary rounded-0">Learn More</a></p>
             </div>
