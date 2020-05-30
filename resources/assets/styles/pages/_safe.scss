@@ -1,0 +1,112 @@
+.section-safe-main {
+  background:
+    url(../../images/about/about-bg-design.png),
+    linear-gradient(90deg, rgba(222, 120, 47, 1) 0%, rgba(246, 185, 51, 1) 100%),
+    rgb(246, 185, 51);
+  background-position: top right, 0 0;
+  background-repeat: no-repeat;
+  background-size: 300px, auto;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.section-safe-parents {
+  background: #000 url(../../images/safe-parents-bg-assets/safe-parents-bg@0.75x.jpg);
+  border-radius: 0;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $light;
+  margin-bottom: 0;
+
+  .safe-parents-border {
+    border: 3px solid $white;
+    padding: $spacer * 5;
+
+    @include media-breakpoint-down(sm) {
+      background: rgba(0, 0, 0, 0.5);
+      padding: $spacer * 3;
+    }
+
+    @include media-breakpoint-down(xs) {
+      padding: $spacer * 1.5;
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-left: 25%;
+    }
+
+    .safety-tips {
+      padding-left: 1rem;
+      list-style-position: outside;
+
+      li {
+        margin-bottom: 1.5rem;
+
+        @include media-breakpoint-down(sm) {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.section-safe-slide {
+  .card {
+    border-radius: 0;
+  }
+}
+
+.section-safe-social-media {
+  background: $gray-100;
+  border-radius: 0;
+  margin-bottom: 0;
+
+  .section-header {
+    text-align: center;
+    padding: 4rem 2rem 2rem;
+  }
+
+  .hr-orange-short {
+    border-top-color: $orange;
+    margin-left: auto;
+  }
+
+  .section-body {
+    border: none;
+    padding: 2rem 2rem 4rem;
+
+    .card {
+      background: transparent;
+      position: relative;
+      border: none;
+      text-align: left;
+
+      .card-body {
+        margin-bottom: 0;
+        padding-top: 0.75rem;
+        margin-left: 2rem;
+
+        .card-title {
+          font-size: 4rem;
+          margin-right: 1rem;
+          margin-bottom: 0;
+        }
+
+        .card-text:last-child {
+          margin-bottom: 0;
+          padding-top: 0.75rem;
+        }
+      }
+    }
+  }
+}
+
+.section-safe-visit {
+  .social-media-icons {
+    .icon {
+      filter: contrast(0) sepia(100%) hue-rotate(6deg) brightness(1) saturate(80);
+      height: 50px;
+    }
+  }
+}

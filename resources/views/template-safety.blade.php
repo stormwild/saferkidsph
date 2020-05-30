@@ -6,7 +6,7 @@
 
 @section('content')
   @if(App\empty_content($post->post_content))
-    safe static content
+    @include('static.safe')
   @else
     @include('partials.content-container')
   @endif
