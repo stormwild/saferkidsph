@@ -6,7 +6,7 @@
 
 @section('content')
   @if(App\empty_content($post->post_content))
-    learn static content
+  @include('static.learn')
   @else
     @include('partials.content-container')
   @endif

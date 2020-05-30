@@ -1,0 +1,69 @@
+
+.section-learn-main {
+  background:
+    url(../../images/about/about-bg-design.png),
+    linear-gradient(90deg, rgba(222, 120, 47, 1) 0%, rgba(246, 185, 51, 1) 100%),
+    rgb(246, 185, 51);
+  background-position: top right, 0 0;
+  background-repeat: no-repeat;
+  background-size: 300px, auto;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.section-learn-do {
+  background: url(../../images/about/about-do-bg-children.jpg);
+  border-radius: 0;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $light;
+  margin-bottom: 0;
+
+  .border-learn-do {
+    border: 3px solid $white;
+  }
+}
+
+.section-learn-how {
+  background: $gray-100;
+  border-radius: 0;
+  margin-bottom: 0;
+
+  .section-orange-gradient {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  .card {
+    border-radius: 0;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 30%;
+    }
+
+    .card-img {
+      border-radius: 0;
+    }
+  }
+
+  .hr-orange-short {
+    border-top-color: $orange;
+    margin-left: 0;
+  }
+}
+
+.section-learn-why {
+  .card {
+    border-radius: 0;
+  }
+}
+
+.section-learn-more {
+  margin-bottom: 0;
+
+  .learn-more-links {
+    list-style-type: none;
+    list-style-position: inside;
+  }
+}

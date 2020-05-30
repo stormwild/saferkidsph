@@ -13,7 +13,11 @@
         @endif
       </div>
       <div class="col-md-1 mb-3">
-        social media icons
+        <ul class="list-unstyled social-media-icons">
+          <li class="media">
+            <img class="facebook-icon" src="@asset('images/icons/social_media/facebook.svg')" alt="Facebook icon">
+          </li>
+        </ul>
       </div>
     </div>
     <div class="row">
