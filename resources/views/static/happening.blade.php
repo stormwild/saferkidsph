@@ -1,6 +1,6 @@
 <section class="section-partial-happening">
   <div class="row no-gutters">
-    <div class="col-md-6 section-graph">
+    <div class="col-md-5 section-graph">
       <div class="card text-white rounded-0">
         <img class="card-img" src="@asset('images/graph-assets/graph-bg.jpg')" alt="What is happening? graph background">
         <div class="card-img-overlay">
@@ -13,9 +13,9 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-7">
       <section class="section-header">
-        <h2>What is happening?</h2>
+        <h2 class="h1">What is happening?</h2>
         <hr class="my-4 hr-orange-short">
         <p>More and more Filipino children are being abused and exploited on the internet.</p>
         <p>In <span class="text-primary font-weight-bold">2017</span>, approximately <span
@@ -23,7 +23,7 @@
           shared and sold online. </p>
         <p>In <span class="text-primary font-weight-bold">2018</span>, the numbers ballooned to at least <span
             class="text-primary font-weight-bold">600,000</span>.</p>
-        <p>Source: From the United States National Center for Missing and Exploited Children</p>
+        <p class="text-muted"><small>Source: From the United States National Center for Missing and Exploited Children</small></p>
       </section>
     </div>
   </div>

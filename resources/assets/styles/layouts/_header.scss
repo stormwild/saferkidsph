@@ -1,27 +1,26 @@
-.banner .nav li {
-  @extend .nav-item;
-}
+.banner {
+  .navbar {
+    padding: 0.5rem 1.5rem 0.5rem;
 
-.banner .nav a {
-  @extend .nav-link;
-}
-
-.banner .navbar {
-  padding: 1.5rem 0.5rem 1rem;
-}
-
-.banner .navbar-nav {
-  .nav-link {
-    font-weight: 900;
+    .navbar-brand {
+      max-width: 260px;
+    }
   }
-}
 
-.banner .navbar-dark {
-  .nav-link {
-    color: rgba($white, 0.75);
+  .navbar-nav {
+    .nav-link {
+      font-weight: 600;
+    }
+  }
 
-    &:hover {
-      color: rgba($white, 0.95);
+  .navbar-dark {
+    .nav-link {
+      color: rgba($white, 0.75);
+
+      &:hover {
+        color: rgba($white, 0.95);
+      }
     }
   }
 }
+

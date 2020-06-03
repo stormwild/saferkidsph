@@ -15,7 +15,13 @@
   .section-header {
     text-align: left;
     padding: 4rem 2rem 2rem 4rem;
-    width: 80%;
+
+    @include media-breakpoint-up(md) {
+      font-size: 1.125rem;
+      position: relative;
+      left: 10%;
+      width: 80%;
+    }
   }
 
   .hr-orange-short {

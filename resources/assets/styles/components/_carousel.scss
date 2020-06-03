@@ -7,8 +7,12 @@
   }
 
   .caption-title {
+    @include media-breakpoint-down(sm) {
+      font-size: 2rem;
+    }
+
     @include media-breakpoint-down(xs) {
-      font-size: 1.5rem;
+      font-size: 1.125rem;
     }
   }
 }
