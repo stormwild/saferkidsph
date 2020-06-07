@@ -1,10 +1,11 @@
-<div class="container">
-  <div class="row">
-    <div class="col py-3">
-      @while(have_posts()) @php the_post() @endphp
-        @include('partials.page-header')
+<section class="section-contact py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        @while(have_posts()) @php the_post() @endphp
         @include('partials.content-page')
-      @endwhile
+        @endwhile
+      </div>
     </div>
   </div>
-</div>
+</section>
