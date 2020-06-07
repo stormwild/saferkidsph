@@ -6,8 +6,8 @@
 
 @section('content')
   @if(App\empty_content($post->post_content))
-    contact static content
+    @include('static.contact')
   @else
-    @include('partials.content-container')
+    @include('partials.content-contact')
   @endif
 @endsection
