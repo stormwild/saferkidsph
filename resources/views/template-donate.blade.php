@@ -1,0 +1,13 @@
+{{--
+  Template Name: Donate SaferKidsPH Template
+--}}
+
+@extends('layouts.app')
+
+@section('content')
+  @if(App\empty_content($post->post_content))
+    @include('static.donate')
+  @else
+    @include('partials.content-container')
+  @endif
+@endsection

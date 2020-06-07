@@ -10,6 +10,7 @@ import common from './routes/common';
 import home from './routes/home';
 import aboutUs from './routes/about';
 import contactUs from './routes/contact';
+import donateForChildren from './routes/donate';
 
 /** Populate Router instance with DOM routes */
 const routes = new Router({
@@ -21,6 +22,8 @@ const routes = new Router({
   aboutUs,
   // Contact Us page
   contactUs,
+  // Donate page,
+  donateForChildren,
 });
 
 // Load Events
