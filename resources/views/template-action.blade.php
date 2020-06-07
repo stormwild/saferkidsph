@@ -6,7 +6,7 @@
 
 @section('content')
   @if(App\empty_content($post->post_content))
-    action static content
+    @include('static.action')
   @else
     @include('partials.content-container')
   @endif

@@ -1,0 +1,23 @@
+.section-action-main,
+.section-action-public,
+.section-action-government,
+.section-action-organizations,
+.section-action-private {
+  .card {
+    border: none;
+    height: 100%;
+
+    .card-body {
+      text-align: center;
+    }
+  }
+}
+
+.section-action-government,
+.section-action-private {
+  @extend .bg-light;
+
+  .card {
+    @extend .bg-light;
+  }
+}
