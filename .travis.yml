@@ -12,6 +12,7 @@ script:
 after_success:
   - rm -rf node_modules
 before_deploy:
+  - yarn build:production
   - cd ..
   - zip -r saferkidsph.zip saferkidsph
   - mv saferkidsph.zip saferkidsph
