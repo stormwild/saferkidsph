@@ -9,10 +9,9 @@ install:
   - composer install
 script:
   - yarn build
-after_success:
-  - rm -rf node_modules
 before_deploy:
   - yarn build:production
+  - rm -rf node_modules
   - cd ..
   - zip -r saferkidsph.zip saferkidsph
   - mv saferkidsph.zip saferkidsph
@@ -25,4 +24,4 @@ deploy:
   on:
     tags: true
   skip_cleanup: 'true'
-  
+    
