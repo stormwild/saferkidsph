@@ -10,6 +10,9 @@ install:
 script:
   - yarn build
 before_deploy:
+  - yarn
+  - composer install
+  - yarn build
   - rm -rf node_modules
   - cd ..
   - zip -r saferkidsph.zip saferkidsph
