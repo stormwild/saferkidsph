@@ -1,0 +1,28 @@
+language: php
+php:
+  - '7.4'
+node_js: 'v12.16.1'
+before_install:
+  - npm i -g yarn
+install:
+  - yarn
+  - composer install
+script:
+  - yarn build
+before_deploy:
+  - mkdir build
+  - cp -R ./app ./build
+  - cp -R ./config ./build
+  - cp -R ./dist ./build
+  - cp -R ./resources ./build
+  - cp -R ./vendor ./build
+  - zip -r build.zip ./build
+  - rm -rf ./build
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key:
+    secure: Cbehk2R99JzrXHI5JhotWOdnrdm30QSqXS9+g8TgM1kGDtA/53l6H/2O/At1eQLqpXARDOMps8+Z8FB014A4eG2bTZtuQiCYDdU7VFh136dkaQYVeb831AakNpkerUlyp1q/R+ltIiw5UAU7gdpfTBz/7VmmM1i8IhUeTjJ0tSrdsFT65WIbgbrwsOTTWbF0AzgIJBM4P7jlC0qVUdUHAg5c0ukf0zHJzlyqJl5Iw8nMuW70+ibJajDwk6vcPKoTzWId5M2aD4AQMckUoDaok/gf/EreZtFZWYz1y7ZpxIqu+lGtQteWmvSRdJE9zZR1ESyzESLpHMbc6g6h9NpeWy3fyhg5sYbcNlyHeY1CNXfoM44I5ItwJRr4bU0CJN7qKW2gqi3DIpzniuIBgezr1eAQxcI12NckG2ssrBCjX97uZoNcKWRFROG+owk52iCEP4t8xboZSX2X0s+5mbyDIt+nKy1SQwlAnyIjZ3RaprtIICu0a0O1Da7N39VTSbHBdkW6LRCDNeJiic5WEqDgql6JjUDFaFrKQzmcZP0jWQZFU+yke0oo7xJlgvl5LbAeQyaqdSWHwHo9Ep0EzDcED1VE0vi6yXfcJGKQTNFEQFUBGxpMILGTcO3gl7JJfee0Wdtytjx3SFjO/5kVZgGaDTI6zuPwTM5hYlxynCzlNx8=
+  file: './build.zip'
+  on:
+    tags: true
