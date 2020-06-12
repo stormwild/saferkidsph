@@ -10,11 +10,13 @@ install:
 script:
   - yarn build
 before_deploy:
-  - rm -rf node_modules
-  - rm -rf .git
   - mkdir build
-  - cp -a ./* ./build
-  - zip -r saferkidsph.zip build
+  - cp -R ./app ./build
+  - cp -R ./config ./build
+  - cp -R ./dist ./build
+  - cp -R ./resources ./build
+  - cp -R ./vendor ./build
+  - zip -r saferkidsph.zip ./build
   - rm -rf build
 deploy:
   provider: releases
