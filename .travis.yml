@@ -10,19 +10,19 @@ install:
 script:
 - yarn build
 before_deploy:
-- mkdir build
-- cp -R ./app ./build
-- cp -R ./config ./build
-- cp -R ./dist ./build
-- cp -R ./resources ./build
-- cp -R ./vendor ./build
-- zip -r build.zip ./build
-- rm -rf ./build
+- mkdir saferkidsph
+- cp -R ./app ./saferkidsph
+- cp -R ./config ./saferkidsph
+- cp -R ./dist ./saferkidsph
+- cp -R ./resources ./saferkidsph
+- cp -R ./vendor ./saferkidsph
+- zip -r saferkidsph.zip ./saferkidsph
+- rm -rf ./saferkidsph
 deploy:
   provider: releases
   api_key:
     secure: EUWMWWwNiCJcpnXmqEY5zhmDFyASPzzr/Szitqr5wHmsfGISaySY+hrHg1geqqE1ofKPl011aVRuIxla5ytof9tEIdTq1ZRcgjCMpsNs6Ih11uTGhvXUKqh3zAK+zw2iJ8yWF9TdO7y/CUn/dsj+nOEEJRxPn8OPuWxqfcQJBJK8fffuSBJnNJO0owB1+FdsM4JmiJqTkJYZBklxm1H5zIb+KKIlyuSkOa4dEYmH+ebZ0NQGRDIOVXPzn0wNN8gOeci0zZPsSq5JSttt+psAopkII6B2x2zibxO4D1xYhclSjJ/SJKUkUcs9Hi2kICob9vOCV+7jIO1e8kCc3XjBbT/k83iFbqyS1WIBcE/Mr9mVyzHKlB7f5cyz1Q/W4Hfku7PfMWVnankIcaPlmGLxTpnhTfExWX6pO9I2PqbyFx0LnW+C3DjFSxIoEssuo/f1f5uXAWICBBhJEFOQY3LNlvB+63PZFsJeEqs55lVMceS9iH4mp1RkgVozW/Bcb9PcWlD3BSaCrQ4EGI2sN5w7MOWHJJZfRPvYfyPtDYRJs6PYWfnbFYAsBNp3OllljGrwcyMPnXX1mA5h9kXUa/UuGZtWd8aO2bir56bw2qc8aKhuEfuv63OC29eSMpmkUfPP4S57VwXPQT0cg38UmQJe4Jz0EZFJ6pCHmcly46Um5FI=
-  file: build.zip
+  file: saferkidsph.zip
   on:
     repo: stormwild/saferkidsph
     tags: true
