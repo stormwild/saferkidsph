@@ -10,14 +10,11 @@ install:
 script:
   - yarn build
 before_deploy:
-  - yarn
-  - composer install
-  - yarn build
   - rm -rf node_modules
-  - cd ..
+  - rm -rf .git
+  - cp -a * saferkidsph
   - zip -r saferkidsph.zip saferkidsph
-  - mv saferkidsph.zip saferkidsph
-  - cd saferkidsph
+  - rm -rf saferkidsph
 deploy:
   provider: releases
   api_key:
@@ -26,4 +23,3 @@ deploy:
   on:
     tags: true
   skip_cleanup: 'true'
-    
