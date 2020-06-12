@@ -12,7 +12,8 @@ script:
 before_deploy:
   - rm -rf node_modules
   - rm -rf .git
-  - cp -a * saferkidsph
+  - mkdir saferkidsph
+  - cp -a . saferkidsph
   - zip -r saferkidsph.zip saferkidsph
   - rm -rf saferkidsph
 deploy:
