@@ -8,7 +8,7 @@ A custom WordPress Theme for SaferKidsPH
 
 ## Version
 
-`v1.0.1`
+`v1.0.0`
 
 # [Sage](https://roots.io/sage/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
