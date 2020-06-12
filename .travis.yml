@@ -26,4 +26,4 @@ deploy:
   on:
     repo: stormwild/saferkidsph
     tags: true
-  skip_cleanup: 'true'
+  skip_cleanup: true
