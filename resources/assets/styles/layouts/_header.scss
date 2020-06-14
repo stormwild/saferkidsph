@@ -11,6 +11,12 @@
     .nav-link {
       font-weight: 600;
     }
+
+    a[title*="Donate"] {
+      &::before {
+        content: "\2665";
+      }
+    }
   }
 
   .navbar-dark {
