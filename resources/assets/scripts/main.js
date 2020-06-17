@@ -12,6 +12,8 @@ import aboutUs from './routes/about';
 import contactUs from './routes/contact';
 import donateForChildren from './routes/donate';
 
+import './util/icons';
+
 /** Populate Router instance with DOM routes */
 const routes = new Router({
   // All pages
