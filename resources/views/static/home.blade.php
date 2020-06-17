@@ -82,9 +82,8 @@
   <section class="section-header container">
     <div class="row">
       <div class="col">
-        <h1>You can help stop the online sexual abuse
-          and exploitation of Filipino children.</h1>
-          <hr class="my-4 hr-orange-short">
+        <h2 class="h1">You can help stop the online sexual abuse <br class="d-none d-lg-inline-block">and exploitation of Filipino children.</h2>
+        <hr class="my-4 hr-orange-short">
       </div>
     </div>
   </section>

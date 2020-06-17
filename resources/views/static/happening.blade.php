@@ -23,7 +23,7 @@
           shared and sold online. </p>
         <p>In <span class="text-primary font-weight-bold">2018</span>, the numbers ballooned to at least <span
             class="text-primary font-weight-bold">600,000</span>.</p>
-        <p class="text-muted"><small>Source: From the United States National Center for Missing and Exploited Children</small></p>
+        <p class="text-muted"><small><em>Source: From the United States National Center for Missing and Exploited Children</em></small></p>
       </section>
     </div>
   </div>
