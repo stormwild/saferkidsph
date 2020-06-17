@@ -45,7 +45,7 @@ class App extends Controller
             'container_class'   => 'collapse navbar-collapse',
             'container_id'      => 'navbarSupportedContent',
             'menu_class'        => 'navbar-nav ml-auto',
-            'walker'            => new \App\wp_bootstrap4_navwalker(),
+            'walker'            => new \App\WP_Bootstrap_Navwalker(),
           );
 
           return $args;
@@ -63,7 +63,7 @@ class App extends Controller
             'container'         => null,
             'menu_id'           => 'footer-menu',
             'menu_class'        => 'nav flex-column font-weight-bold',
-            'walker'            => new \App\wp_bootstrap4_navwalker(),
+            'walker'            => new \App\WP_Bootstrap_Navwalker(),
         ];
     }
 

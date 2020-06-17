@@ -4,12 +4,12 @@
       <div class="col-md-7 mb-3">
         @php dynamic_sidebar('sidebar-footer') @endphp
         @if (! is_active_sidebar('sidebar-footer'))
-          @include('static.footer-about')
+        @include('static.footer-about')
         @endif
       </div>
       <div class="col-md-3 offset-md-1 mb-3">
         @if (has_nav_menu('footer_navigation'))
-          {!! wp_nav_menu($footer_menu) !!}
+        {!! wp_nav_menu($footer_menu) !!}
         @endif
       </div>
       <div class="col-md-1 mb-3">
