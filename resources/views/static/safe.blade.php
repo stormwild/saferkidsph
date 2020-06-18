@@ -1,9 +1,9 @@
 <section class="jumbotron section-orange-gradient section-safe-main">
-  <h1 class="display-4 font-weight-bolder">Stay Safe Online</h1>
+  <h1 class="display-1 display-sm-4 font-weight-bolder mt-3 mt-md-5">Stay Safe Online</h1>
 
-  <hr class="my-4 hr-orange-short">
+  <hr class="my-4 hr-orange-short mb-md-5">
 
-  <div class="row mb-3">
+  <div class="row mb-5">
     <div class="col-lg-9">
       <p class="lead">Anyone can be a victim of abuse. It’s important to keep your social media profiles secure and
         think before you share online.</p>
@@ -17,7 +17,7 @@
     <div class="col-12">
       <section class="safe-parents-border mx-xs-1 mx-md-5">
         <section class="mb-5">
-          <h2 class="font-weight-bolder mb-xs-1 mb-sm-3 mb-md-5"><span class="text-primary">For Parents</span><br>
+          <h2 class="h1-md font-weight-bolder mb-xs-1 mb-sm-3 mb-md-5"><span class="text-primary">For Parents</span><br>
             Keep your children safe online:</h2>
           <ol class="safety-tips">
             <li>Monitor your children’s use of smartphones or tablets. Put your computer in a location where you can see
@@ -38,7 +38,7 @@
 
 <section class="section-safe-slide">
   <div class="row no-gutters">
-    <div class="col-md-6">
+    <div class="col-md-4 bg-black">
       <div class="card bg-dark text-white">
         <img class="card-img" src="@asset('images/texture-white-assets/texture-white.png')" alt="Learn Why bg texture">
         <div class="card-img-overlay mt-5 p-5">
@@ -48,7 +48,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-8">
       <div id="safetyCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -97,10 +97,10 @@
 </section>
 
 <section class="section-safe-social-media">
-  <section class="section-header">
+  <section class="section-header container">
     <div class="row">
       <div class="col">
-        <h2>Stay safe on social media</h2>
+        <h2 class="h1-md mt-5">Stay safe on social media</h2>
         <hr class="my-4 hr-orange-short">
       </div>
     </div>

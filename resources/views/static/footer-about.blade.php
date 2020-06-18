@@ -1,5 +1,5 @@
 <section class="widget widget_media_image">
-  <img width="300" src="@asset('images/saferkidsph-logo.png')" class="img-fluid" alt="SaferKidsPH logo">
+  <img width="200" src="@asset('images/saferkidsph-logo.png')" class="img-fluid" alt="SaferKidsPH logo">
 </section>
 <section class="widget widget_text">
   <div class="textwidget">

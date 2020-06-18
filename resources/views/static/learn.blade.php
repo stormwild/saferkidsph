@@ -1,9 +1,9 @@
 <section class="jumbotron section-orange-gradient section-learn-main">
-  <h1 class="display-4 font-weight-bolder">What is Online Sexual Abuse and Exploitation of Children?</h1>
+  <h1 class="display-1 display-sm-4 font-weight-bolder mt-3 mt-md-5">What is Online Sexual Abuse <br class="d-none d-lg-inline-block">and Exploitation of Children?</h1>
 
-  <hr class="my-4 hr-orange-short">
+  <hr class="my-4 hr-orange-short mb-md-5">
 
-  <div class="row mb-3">
+  <div class="row mb-5">
     <div class="col-lg-9">
       <p class="lead">While the internet promises many benefits to children, being online can also be dangerous for
         them. A government study found that 1 in 2 Filipino children are victims of violence on the internet. The worst
@@ -16,7 +16,7 @@
 @include('static.happening')
 
 <section class="section-learn-how py-sm-0 py-md-5">
-  <div class="row no-gutters">
+  <div class="row no-gutters py-5">
     <div class="col-md-8">
       <section class="jumbotron section-orange-gradient p-5">
         <h1 class="display-4 font-weight-bolder">How are Filipino Children Abused and Exploited Online? </h1>
@@ -52,8 +52,8 @@
     <div class="col-md-6">
       <div class="card bg-dark text-white">
         <img class="card-img" src="@asset('images/texture-white-assets/texture-white.png')" alt="Learn Why bg texture">
-        <div class="card-img-overlay d-flex flex-column mt-5 p-5">
-          <h3>Why are Filipino children abused and exploited online? </h3>
+        <div class="card-img-overlay d-flex flex-column mt-5 p-md-5">
+          <h3 class="h1-lg">Why are Filipino children abused and exploited online? </h3>
           <hr class="hr-orange-short">
           <p>It’s a sad fact that many people would pay for pictures or videos of children being abused or watch them
             live

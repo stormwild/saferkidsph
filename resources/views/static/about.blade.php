@@ -1,9 +1,9 @@
 <section class="jumbotron section-orange-gradient section-about-main">
-  <h1 class="display-4 font-weight-bolder">What is SaferKidsPH?</h1>
+  <h1 class="display-1 display-sm-4 font-weight-bolder mt-3 mt-md-5">What is SaferKidsPH?</h1>
 
-  <hr class="my-4 hr-orange-short">
+  <hr class="my-4 hr-orange-short mb-md-5">
 
-  <div class="row mb-3">
+  <div class="row mb-5">
     <div class="col-lg-9">
       <p class="lead">SaferKidsPH, an Australian Government initiative, is delivered through the pioneering consortium
         of Save the Children Philippines, The Asian Foundation and UNICEF to reduce the online sexual abuse
@@ -57,35 +57,37 @@
   <section class="section-header">
     <div class="row">
       <div class="col">
-        <h2>How will SaferKidsPH protect children online?</h2>
+        <h2 class="h1 mt-5">How will SaferKidsPH protect children online?</h2>
         <hr class="my-4 hr-orange-short">
       </div>
     </div>
   </section>
   <section class="section-body">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <h3 class="card-title text-primary">With the Public</h3>
-            <p class="card-text">SaferKidsPH will work to improve the knowledge, attitudes, and practices, of parents, schools, primary caregivers, faith based organizations, local groups, businesses, and media to protect children from online sexual abuse and exploitation.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-primary">With the Public</h3>
+              <p class="card-text">SaferKidsPH will work to improve the knowledge, attitudes, and practices, of parents, schools, primary caregivers, faith based organizations, local groups, businesses, and media to protect children from online sexual abuse and exploitation.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <h3 class="card-title text-primary">With the Police and the Courts</h3>
-            <p class="card-text">SaferKidsPH will work to improve the capacity of justice actors, legislation, and police in handling and responding to OSAEC cases.</p>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-primary">With the Police and the Courts</h3>
+              <p class="card-text">SaferKidsPH will work to improve the capacity of justice actors, legislation, and police in handling and responding to OSAEC cases.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <h3 class="card-title text-primary">With the Public</h3>
-            <p class="card-text">SaferKidsPH will work to improve the service delivery for OSAEC prevention and protection
-              of children in target barangays.</p>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-primary">With the Public</h3>
+              <p class="card-text">SaferKidsPH will work to improve the service delivery for OSAEC prevention and protection
+                of children in target barangays.</p>
+            </div>
           </div>
         </div>
       </div>

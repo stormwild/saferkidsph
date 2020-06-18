@@ -6,13 +6,13 @@
     rgb(246, 185, 51);
   background-position: top right, 0 0;
   background-repeat: no-repeat;
-  background-size: 300px, auto;
+  background-size: 400px, auto;
   border-radius: 0;
   margin-bottom: 0;
 }
 
 .section-about-do {
-  background: url(../../images/about/about-do-bg-children.jpg);
+  background: $gray-700 url(../../images/about/about-do-bg-children.jpg);
   border-radius: 0;
   background-position: top right;
   background-repeat: no-repeat;
