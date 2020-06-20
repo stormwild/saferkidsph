@@ -1,9 +1,8 @@
 <section class="section-action-main bg-dark text-white">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-md-10 p-3">
-        What you can do to help stop online sexual abuse and exploitation of Filipino children. Report cases cases of
-        online child sexual abuse and exploitation.
+        What you can do to help stop online sexual abuse and exploitation of Filipino children. Report cases cases of online child sexual abuse and exploitation.
       </div>
       <div class="col-md-2 p-3">
         <strong>Call Bantay Bata 163: 163</strong>

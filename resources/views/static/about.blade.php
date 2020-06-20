@@ -1,5 +1,5 @@
 <section class="jumbotron section-orange-gradient section-about-main">
-  <h1 class="display-1 display-sm-4 font-weight-bolder mt-3 mt-md-5">What is SaferKidsPH?</h1>
+  <h1 class="display-xs-4 display-md-3 display-lg-1 font-weight-bolder mt-3 mt-md-5">What is SaferKidsPH?</h1>
 
   <hr class="my-4 hr-orange-short mb-md-5">
 
@@ -35,13 +35,12 @@
 
 <section class="jumbotron section-about-do">
   <div class="row">
-    <div class="col-sm-10 col-md-8 col-lg-6">
-      <section class=" border-about-do p-3 p-md-5">
+    <div class="col col-md-8 col-lg-6">
+      <section class=" border-about-do p-5">
         <section class="mb-5">
-          <h2 class="font-weight-bolder">What do we stand for?</h2>
+          <h2 class="h1 font-weight-bolder">What do we stand for?</h2>
           <p class="lead">Every child deserves to be loved, nurtured, protected, and not suffer from abuse online.</p>
-          <p class="lead">Our goal is to keep Filipino children safe from perpetrators and predators, and all forms of
-            sexual abuse and harm online. </p>
+          <p class="lead">Our goal is to keep Filipino children safe from perpetrators and predators, and all forms of sexual abuse and harm online. </p>
         </section>
         <section>
           <h2 class="font-weight-bolder">What do we want to achieve?</h2>
@@ -76,7 +75,7 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <h3 class="card-title text-primary">With the Police and the Courts</h3>
+              <h3 class="card-title text-primary">With the Police <br class="d-none d-lg-inline-block">and the Courts</h3>
               <p class="card-text">SaferKidsPH will work to improve the capacity of justice actors, legislation, and police in handling and responding to OSAEC cases.</p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 <section class="jumbotron section-orange-gradient section-learn-main">
-  <h1 class="display-1 display-sm-4 font-weight-bolder mt-3 mt-md-5">What is Online Sexual Abuse <br class="d-none d-lg-inline-block">and Exploitation of Children?</h1>
+  <h1 class="display-xs-4 display-md-3 display-lg-1 font-weight-bolder mt-3 mt-md-5">What is Online Sexual Abuse <br class="d-none d-lg-inline-block">and Exploitation of Children?</h1>
 
   <hr class="my-4 hr-orange-short mb-md-5">
 
@@ -17,8 +17,8 @@
 
 <section class="section-learn-how py-sm-0 py-md-5">
   <div class="row no-gutters py-5">
-    <div class="col-md-8">
-      <section class="jumbotron section-orange-gradient p-5">
+    <div class="col-md-7">
+      <section class="jumbotron section-orange-gradient">
         <h1 class="display-4 font-weight-bolder">How are Filipino Children Abused and Exploited Online? </h1>
         <hr class="my-4 hr-orange-short ml-0">
         <p>The National Study on Child Online Sexual Exploitation and Abuse found that in many cases, poverty was the
@@ -40,7 +40,7 @@
           and in their own families.</p>
       </section>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-5">
       <div class="card"><img src="@asset('images/learn-how-exploited-photo-assets/learn-how-exploited-photo.jpg')"
           alt="Learn how children are exploited photo" class="card-img"></div>
     </div>
@@ -55,11 +55,7 @@
         <div class="card-img-overlay d-flex flex-column mt-5 p-md-5">
           <h3 class="h1-lg">Why are Filipino children abused and exploited online? </h3>
           <hr class="hr-orange-short">
-          <p>It’s a sad fact that many people would pay for pictures or videos of children being abused or watch them
-            live
-            online. This is a very big illegal business worldwide and the Philippines is one of the biggest sources of
-            it
-            worldwide. </p>
+          <p>It’s a sad fact that many people would pay for pictures or videos of children being abused or watch them live online. This is a very big illegal business worldwide and the Philippines is one of the biggest sources of it worldwide.</p>
         </div>
       </div>
     </div>
@@ -115,12 +111,12 @@
   <div class="row mb-3">
     <div class="col-lg-9">
       <ul class="learn-more-links">
-        <li><a href="https://www.thinkuknow.org.au/">https://www.thinkuknow.org.au/</a></li>
-        <li><a href="https://www.facebook.com/ThinkUKnowAustralia/">https://www.facebook.com/ThinkUKnowAustralia/</a></li>
-        <li><a href="https://www.accce.gov.au/">https://www.accce.gov.au/</a></li>
-        <li><a href="https://www.facebook.com/ACCCEgovau">https://www.facebook.com/ACCCEgovau</a></li>
-        <li><a href="http://www.cybersafe.asia/">www.cybersafe.asia</a></li>
-        <li><a href="https://elearning.stairwayfoundation.org/">www.elearning.stairwayfoundation.org</a></li>
+        <li><p class="text-break"><a href="https://www.thinkuknow.org.au/">https://www.thinkuknow.org.au/ <span class="small"><i class="fas fa-external-link-alt"></i></span></a></p></li>
+        <li><p class="text-break"><a href="https://www.facebook.com/ThinkUKnowAustralia/">https://www.facebook.com/ThinkUKnowAustralia/ <span class="small"><i class="fas fa-external-link-alt"></i></span></a></p></li>
+        <li><p class="text-break"><a href="https://www.accce.gov.au/">https://www.accce.gov.au/ <span class="small"><i class="fas fa-external-link-alt"></i></span></a></p></li>
+        <li><p class="text-break"><a href="https://www.facebook.com/ACCCEgovau">https://www.facebook.com/ACCCEgovau <span class="small"><i class="fas fa-external-link-alt"></i></span></a></p></li>
+        <li><p class="text-break"><a href="http://www.cybersafe.asia/">www.cybersafe.asia <span class="small"><i class="fas fa-external-link-alt"></i></span></a></p></li>
+        <li><p class="text-break"><a href="https://elearning.stairwayfoundation.org/">www.elearning.stairwayfoundation.org <span class="small"><i class="fas fa-external-link-alt"></i></span></a></p></li>
       </ul>
     </div>
   </div>

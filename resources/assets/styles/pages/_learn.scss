@@ -33,6 +33,11 @@
   .section-orange-gradient {
     border-radius: 0;
     margin-bottom: 0;
+    padding: $spacer * 5;
+
+    @include media-breakpoint-down(xs) {
+      padding: $spacer * 3;
+    }
   }
 
   .card {

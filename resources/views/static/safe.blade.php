@@ -1,12 +1,11 @@
 <section class="jumbotron section-orange-gradient section-safe-main">
-  <h1 class="display-1 display-sm-4 font-weight-bolder mt-3 mt-md-5">Stay Safe Online</h1>
+  <h1 class="display-xs-4 display-md-3 display-lg-1 font-weight-bolder mt-3 mt-md-5">Stay Safe Online</h1>
 
   <hr class="my-4 hr-orange-short mb-md-5">
 
   <div class="row mb-5">
     <div class="col-lg-9">
-      <p class="lead">Anyone can be a victim of abuse. It’s important to keep your social media profiles secure and
-        think before you share online.</p>
+      <p class="lead">Anyone can be a victim of abuse. It’s important to keep <br class="d-none d-lg-inline-block">your social media profiles secure and think before you share online.</p>
     </div>
   </div>
 
@@ -20,15 +19,12 @@
           <h2 class="h1-md font-weight-bolder mb-xs-1 mb-sm-3 mb-md-5"><span class="text-primary">For Parents</span><br>
             Keep your children safe online:</h2>
           <ol class="safety-tips">
-            <li>Monitor your children’s use of smartphones or tablets. Put your computer in a location where you can see
-              them, like your living room or dining area.</li>
+            <li>Monitor your children’s use of smartphones or tablets. Put your computer in a location where you can see them, like your living room or dining area.</li>
             <li>Know who your child’s online friends are.</li>
-            <li>Encourage your children to ask themselves before posting anything if the information or photo is
-              something they would give a stranger. If the answer is no, don’t post it.</li>
+            <li>Encourage your children to ask themselves before posting anything if the information or photo is something they would give a stranger. If the answer is no, don’t post it.</li>
             <li>Teach your children to set their locations to private.</li>
             <li>Keep track of their internet time.</li>
-            <li>Encourage your children to seek help or counsel when something disturbs them. Let them know that you are
-              there to protect and defend them.</li>
+            <li>Encourage your children to seek help or counsel when something disturbs them. Let them know that you are there to protect and defend them.</li>
           </ol>
         </section>
       </section>
@@ -52,8 +48,12 @@
       <div id="safetyCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-          <li data-target="#safetyCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#safetyCarousel" data-slide-to="1"></li>
+          <li class="carousel-indicator" data-target="#safetyCarousel" data-slide-to="0" class="active"></li>
+          <li class="carousel-indicator" data-target="#safetyCarousel" data-slide-to="1"></li>
+          <li class="carousel-indicator" data-target="#safetyCarousel" data-slide-to="2"></li>
+          <li class="carousel-indicator" data-target="#safetyCarousel" data-slide-to="3"></li>
+          <li class="carousel-indicator" data-target="#safetyCarousel" data-slide-to="4"></li>
+          <li class="carousel-indicator" data-target="#safetyCarousel" data-slide-to="5"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -166,29 +166,28 @@
 <section class="section-safe-visit p-5">
 <div class="container">
   <div class="row">
-    <div class="col-md-6 mb-3">
-      <h2>Visit these pages to keep <br>
-        your social media profiles secure:</h2>
+    <div class="col-md-5 mb-3">
+      <h2 class="h4-md h1-lg">Visit these pages to keep <br class="d-none d-xl-inline-block">your social media profiles secure:</h2>
     </div>
-    <div class="col-md-6">
-      <ul class="list-unstyled social-media-icons d-flex flex-column flex-sm-row">
-        <li class="media flex-column align-items-center m-1 m-lg-3">
+    <div class="col-md-7">
+      <ul class="list-unstyled social-media-icons d-flex flex-wrap flex-sm-row justify-content-center">
+        <li class="media flex-column flex-fill align-items-center m-1 m-lg-3">
           <img class="icon" src="@asset('images/icons/social_media/facebook.svg')" alt="Facebook icon">
           <div class="media-body">Facebook</div>
         </li>
-        <li class="media flex-column align-items-center m-1 m-lg-3">
+        <li class="media flex-column flex-fill align-items-center m-1 m-lg-3">
           <img class="icon" src="@asset('images/icons/social_media/instagram.svg')" alt="Instagram icon">
           <div class="media-body">Instagram</div>
         </li>
-        <li class="media flex-column align-items-center m-1 m-lg-3">
+        <li class="media flex-column flex-fill align-items-center m-1 m-lg-3">
           <img class="icon" src="@asset('images/icons/social_media/youtube.svg')" alt="YouTube icon">
           <div class="media-body">Youtube</div>
         </li>
-        <li class="media flex-column align-items-center m-1 m-lg-3">
+        <li class="media flex-column flex-fill align-items-center m-1 m-lg-3">
           <img class="icon" src="@asset('images/icons/social_media/twitter.svg')" alt="Twitter icon">
           <div class="media-body">Twitter</div>
         </li>
-        <li class="media flex-column align-items-center m-1 m-lg-3">
+        <li class="media flex-column flex-fill align-items-center m-1 m-lg-3">
           <img class="icon" src="@asset('images/icons/social_media/tiktok.svg')" alt="Tiktok icon">
           <div class="media-body">Tiktok</div>
         </li>

@@ -4,6 +4,10 @@
 
     .navbar-brand {
       max-width: 260px;
+
+      @include media-breakpoint-down(xs) {
+        max-width: 230px;
+      }
     }
   }
 
